@@ -2,12 +2,11 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-class Home extends Component {
-  render() {
+ const Home = () => {
     return (
       <h1>Hello World</h1>
     );
-  }
+  
 }
 
 const mapStateToProps = (state) => {
